@@ -38,6 +38,7 @@ def iniciar():
 
         if opcion == '1':
             print(colored(Fore.LIGHTGREEN_EX+"Creación de punto".center(42)))
+            
             input_x = int(input("Ingrese la coordenada X: "))
             input_y = int(input("Ingrese la coordenada Y: "))
             punto1=pt.Punto(input_x, input_y)

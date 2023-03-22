@@ -50,11 +50,11 @@ class Rectangulo:
 # Experimentación
 if __name__ == "__main__":
     
-    A=Punto(3,2)
+    A=Punto(2,3)
     print(A.__str__())
-    B=Punto(4,4)
+    B=Punto(5,5)
     print(B.__str__())
-    C=Punto(-2,-5)
+    C=Punto(-3,-1)
     print(C.__str__())
     D=Punto(0,0)
     print(D.__str__())
@@ -74,8 +74,10 @@ if __name__ == "__main__":
     print(B.distancia(A))
     
     # Determina cual de los 3 puntos A, B o C, se encuentra más lejos del origen, punto (0,0)
+    print(A.distancia(D))
+    print(B.distancia(D))
+    print(C.distancia(D))
     
-
     # Crea el rectángulo utilizando los puntos A y B
     rectangulo=Rectangulo(A,B)
 
