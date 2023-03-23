@@ -16,24 +16,24 @@ def iniciar():
     while True:
         helpers.limpiar_pantalla()
 
-        lineas=(Fore.GREEN+"=="*21)
+        lineas=(Fore.LIGHTBLUE_EX+"=="*21)
 
         print(lineas)
-        print(colored(("BIENVENIDO AL MENÚ DE PUNTOS Y RECTANGULOS").center(36), 'white', attrs=['bold'], on_color='on_green'))
-        print(colored(Fore.GREEN+("¿Qué desea hacer?").center(42)))
+        print(colored(("BIENVENIDO AL MENÚ DE PUNTOS Y RECTANGULOS").center(36), 'white', attrs=['bold'], on_color='on_blue'))
+        print(colored(Fore.LIGHTBLUE_EX+("¿Qué desea hacer?").center(42)))
         print( lineas)
-        print(colored(Fore.LIGHTGREEN_EX+"[1]"),"Crear punto")
-        print(colored(Fore.LIGHTGREEN_EX+"[2]"),"Mostrar cuadrante de un punto")
-        print(colored(Fore.LIGHTGREEN_EX+"[3]"),"Mostrar vector entre dos puntos")
-        print(colored(Fore.LIGHTGREEN_EX+"[4]"),"Mostrar distancia entre dos puntos")
-        print(colored(Fore.LIGHTGREEN_EX+"[5]"),"Crear rectángulo")
-        print(colored(Fore.LIGHTGREEN_EX+"[6]"),"Mostrar base de un rectángulo")
-        print(colored(Fore.LIGHTGREEN_EX+"[7]"), "Mostrar altura de un rectángulo")
-        print(colored(Fore.LIGHTGREEN_EX+"[8]"), "Mostrar área de un rectángulo")
-        print(colored(Fore.LIGHTGREEN_EX+"[9]"), "Salir")
+        print(colored(Fore.LIGHTBLUE_EX+"[1]"),"Crear punto")
+        print(colored(Fore.LIGHTBLUE_EX+"[2]"),"Mostrar cuadrante de un punto")
+        print(colored(Fore.LIGHTBLUE_EX+"[3]"),"Mostrar vector entre dos puntos")
+        print(colored(Fore.LIGHTBLUE_EX+"[4]"),"Mostrar distancia entre dos puntos")
+        print(colored(Fore.LIGHTBLUE_EX+"[5]"),"Crear rectángulo")
+        print(colored(Fore.LIGHTBLUE_EX+"[6]"),"Mostrar base de un rectángulo")
+        print(colored(Fore.LIGHTBLUE_EX+"[7]"), "Mostrar altura de un rectángulo")
+        print(colored(Fore.LIGHTBLUE_EX+"[8]"), "Mostrar área de un rectángulo")
+        print(colored(Fore.LIGHTBLUE_EX+"[9]"), "Salir")
         print(lineas)
 
-        opcion = input(colored(Fore.LIGHTGREEN_EX+"> "))
+        opcion = input(colored(Fore.LIGHTBLUE_EX+"> "))
         helpers.limpiar_pantalla()
 
         if opcion == '1':
