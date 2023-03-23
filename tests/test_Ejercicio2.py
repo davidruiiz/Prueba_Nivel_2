@@ -1,4 +1,3 @@
-import helpers
 import unittest
 import punto as pt
 
@@ -8,7 +7,7 @@ class TestEjercicio2(unittest.TestCase):
         punto1 = pt.Punto(2, 3)
         self.assertEqual(punto1.x, 2)
         self.assertEqual(punto1.y, 3)
-        
+
     def test_cuadrante(self):
         punto1 = pt.Punto(2, 3)
         self.assertEqual(pt.Punto.cuadrante(punto1), "El punto se encuentra en el primer cuadrante")

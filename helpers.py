@@ -1,4 +1,3 @@
-import re
 import os
 import platform
 from colorama import *
