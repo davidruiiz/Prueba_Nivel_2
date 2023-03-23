@@ -47,9 +47,6 @@ def iniciar():
             plt.show()
 
         
-
-        
-        
         elif opcion == '2':
             print(colored(Fore.LIGHTBLUE_EX+"Cuadrante de un punto".center(42)))
             input_x = int(input("Ingrese la coordenada X: "))
@@ -82,6 +79,7 @@ def iniciar():
             plt.plot([punto1_x,punto2_x],[punto1_y, punto2_y], ":", color="blue")
             plt.show()
         
+
         elif opcion == '4':
             print(colored(Fore.LIGHTBLUE_EX+"Distancia entre dos puntos".center(42)))
 
@@ -104,6 +102,7 @@ def iniciar():
             plt.plot([punto1_x,punto2_x],[punto1_y, punto2_y], ":", color="blue")
             plt.show()
         
+
         elif opcion == '5':
             print(colored(Fore.LIGHTBLUE_EX+"Creación de rectángulo".center(42)))
 
@@ -138,8 +137,6 @@ def iniciar():
             t.forward(a)
             t.left(90)
 
-
-            
             
         elif opcion == '6':
             print(colored(Fore.LIGHTBLUE_EX+"Base de un rectángulo".center(42)))
@@ -166,7 +163,6 @@ def iniciar():
 
             # dibujar rectángulo
             
-
         
         elif opcion == '7':
             print(colored(Fore.LIGHTBLUE_EX+"Altura de un rectángulo".center(42)))
@@ -191,6 +187,7 @@ def iniciar():
 
             print(colored(Fore.LIGHTBLUE_EX+"Altura obtenida con éxito".center(42)))
         
+
         elif opcion == '8':
             print(colored(Fore.LIGHTBLUE_EX+"Área de un rectángulo".center(42)))
 
@@ -234,11 +231,12 @@ def iniciar():
             t.end_fill()
 
 
-        
-        if opcion == '9':
+        elif opcion == '9':
             print(colored(Fore.LIGHTGREEN_EX+"Saliendo..."))
             break
 
         input(colored(Fore.LIGHTGREEN_EX+"Presione ENTER para continuar".center(42)))
+
+
 
 iniciar()
